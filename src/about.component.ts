@@ -5,7 +5,7 @@ selector: 'app-about',
 standalone: true,
 imports: [CommonModule],
 template: `
-<p> hello, this is about us page </p>
+<p class="line-through"> hello, this is about us page </p>
 `,
 })
 export class AboutComponent {}
